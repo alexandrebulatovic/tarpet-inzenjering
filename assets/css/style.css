@@ -2079,7 +2079,7 @@ hr {
   display: inline-block;
   margin-right: 45px;
   font-family: "Barlow", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 .header-area .header-top .header-info-left ul li:last-child {
   margin-right: 0px;
@@ -3577,7 +3577,9 @@ hr {
 .footer-area .footer-pera .info1 {
   margin-bottom: 10px;
   line-height: 1.8;
+  margin-right : 100px;
   padding-right: 40px;
+  display: inline-block;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .footer-area .footer-pera .info1 {
