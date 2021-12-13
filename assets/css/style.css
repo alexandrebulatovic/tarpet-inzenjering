@@ -1654,7 +1654,7 @@ hr {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .section-padding30 {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 60px;	
   }
 }
@@ -2675,24 +2675,24 @@ hr {
   }
 }
 .support-company-area .support-wrapper .left-content {
-  width: 54%;
+    width: 100%;
   padding-left: 366px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .support-company-area .support-wrapper .left-content {
-    width: 49%;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
   .support-company-area .support-wrapper .left-content {
     padding-left: 30px;
-    width: 49%;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 1441px) and (max-width: 1800px) {
   .support-company-area .support-wrapper .left-content {
     padding-left: 200px;
-    width: 49%;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2738,15 +2738,15 @@ hr {
   }
 }
 .support-company-area .support-wrapper .left-content .support-caption p {
-  margin-bottom: 46px;
-  font-size: 15px;
+  margin-bottom: 30px;
+  font-size: 1.25rem;
 }
 .support-company-area
   .support-wrapper
   .left-content
   .support-caption
   p.pera-top {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
   color: #0b0b2b;
 }
