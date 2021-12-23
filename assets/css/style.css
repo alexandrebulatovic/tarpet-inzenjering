@@ -3606,10 +3606,11 @@ hr {
     padding-right: 0px;
   }
 }
-.footer-area .footer-pera .info2 {
-  margin-bottom: 50px;
-  line-height: 1.8;
+
+.info1 {
+	font-size: 20px;
 }
+
 .footer-area .footer-pera.footer-pera2 p {
   padding: 0;
 }
