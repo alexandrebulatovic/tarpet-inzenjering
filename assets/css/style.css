@@ -3640,23 +3640,7 @@ hr {
 .footer-area .info.error {
   color: #ff5f13;
 }
-.footer-area .footer-social a {
-  width: 40px;
-  height: 40px;
-  font-size: 14px;
-  border: 1px solid #fafafa;
-  background: #fafafa;
-  display: inline-block;
-  line-height: 40px;
-  text-align: center;
-  color: #949eb2;
-  margin-right: 5px;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
+
 .footer-area .footer-copy-right {
   padding-top: 20px;
 }
@@ -3681,17 +3665,7 @@ hr {
 .footer-area .footer-copy-right p a:hover {
   color: #ff5f13;
 }
-.footer-social a:hover {
-  background: #ff5f13;
-}
-.footer-social a:hover i {
-  color: #fff;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
+
 .map-footer img {
   width: 100%;
 }
@@ -6087,5 +6061,18 @@ ul {
 }
 
 .header-social a:hover {
+  color: #ff5f13;
+}
+
+.footer-social {
+  display: inline;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-social a:hover {
   color: #ff5f13;
 }
