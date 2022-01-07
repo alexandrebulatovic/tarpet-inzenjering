@@ -1654,8 +1654,8 @@ hr {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .section-padding30 {
-  padding-top: 50px;
-  padding-bottom: 20px;	
+    padding-top: 50px;
+    padding-bottom: 20px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2087,17 +2087,7 @@ hr {
 .header-area .header-top .header-info-left ul li i {
   margin-right: 8px;
 }
-.header-area .header-top .header-info-right .header-social li {
-  display: inline-block;
-}
-.header-area .header-top .header-info-right .header-social li a {
-  color: #fff;
-  font-size: 14px;
-  padding-left: 25px;
-}
-.header-area .header-top .header-info-right .header-social li a:hover {
-  color: #ff5f13;
-}
+
 .main-header {
   position: relative;
   z-index: 3;
@@ -2188,25 +2178,7 @@ hr {
   left: 0;
   z-index: 9;
 }
-.header-area .header-top .header-info-right .header-social a i {
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-  transform: rotateY(0deg);
-  -webkit-transform: rotateY(0deg);
-  -moz-transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
-  -o-transform: rotateY(0deg);
-}
-.header-area .header-top .header-info-right .header-social a:hover i {
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-}
+
 .header-sticky.sticky-bar.sticky {
   background: #191a33;
 }
@@ -2675,7 +2647,7 @@ hr {
   }
 }
 .support-company-area .support-wrapper .left-content {
-    width: 100%;
+  width: 100%;
   padding-left: 366px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3577,7 +3549,7 @@ hr {
 .footer-area .footer-pera .info1 {
   margin-bottom: 10px;
   line-height: 1.8;
-  margin-right : 52px;
+  margin-right: 52px;
   padding-right: 40px;
   display: inline-block;
 }
@@ -3608,7 +3580,7 @@ hr {
 }
 
 .info1 {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 .footer-area .footer-pera.footer-pera2 p {
@@ -5488,7 +5460,7 @@ ul {
   color: #0b0b2b;
 }
 
-.usluge p{
+.usluge p {
   font-size: 20px;
   color: #0b0b2b;
 }
@@ -6103,4 +6075,17 @@ ul {
 }
 .switch-wrap {
   margin-bottom: 10px;
+}
+
+.header-social {
+  display: inline-block;
+}
+
+.header-social a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.header-social a:hover {
+  color: #ff5f13;
 }
