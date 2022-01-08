@@ -6076,3 +6076,14 @@ ul {
 .footer-social a:hover {
   color: #ff5f13;
 }
+
+@media (max-width: 445px) {
+  .footer-social {
+    display: block;
+    width: 183px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
