@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://www.tarpet-inzenjering.com/</loc>
-<lastmod>2022-01-09T21:09:47+00:00</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<url>
+		<loc>https://www.tarpet-inzenjering.com/sr</loc>
+        <lastmod>2022-02-19</lastmod>
+		<xhtml:link rel="alternate" hreflang="sr" href="https://www.tarpet-inzenjering.com/sr" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.tarpet-inzenjering.com/en" />
+		<xhtml:link rel="alternate" hreflang="no" href="https://www.tarpet-inzenjering.com/no" />
+	</url>
+	<url>
+		<loc>https://www.tarpet-inzenjering.com/en</loc>
+        <lastmod>2022-02-19</lastmod>
+		<xhtml:link rel="alternate" hreflang="sr" href="https://www.tarpet-inzenjering.com/sr" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.tarpet-inzenjering.com/en" />
+		<xhtml:link rel="alternate" hreflang="no" href="https://www.tarpet-inzenjering.com/no" />
+	</url>
+	<url>
+		<loc>https://www.tarpet-inzenjering.com/no</loc>
+        <lastmod>2022-02-19</lastmod>
+		<xhtml:link rel="alternate" hreflang="sr" href="https://www.tarpet-inzenjering.com/sr" />
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.tarpet-inzenjering.com/en" />
+		<xhtml:link rel="alternate" hreflang="no" href="https://www.tarpet-inzenjering.com/no" />
+	</url>
 </urlset>
