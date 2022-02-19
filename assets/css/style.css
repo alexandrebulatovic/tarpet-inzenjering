@@ -5530,6 +5530,17 @@ ul {
   }
 }
 
+#dropdownMenuLink {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background: #ff5f13;
+}
+
+#contact-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .language-topbar-text {
   font-weight: 700;
   color: #ff5f13;
