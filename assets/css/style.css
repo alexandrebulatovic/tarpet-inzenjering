@@ -3497,7 +3497,13 @@ hr {
 
 .info1 {
   font-size: 20px;
-  width: 349px;
+  width: 649px;
+}
+
+@media (max-width: 575px) {
+  .info1 {
+    width: 435px;
+  }
 }
 
 .footer-area .footer-pera.footer-pera2 p {
