@@ -170,9 +170,7 @@ a:focus,
 a {
   color: #635c5c;
 }
-a:hover {
-  color: #fff;
-}
+
 a:focus,
 a:hover,
 .portfolio-cat a:hover,
@@ -1716,36 +1714,13 @@ hr {
   }
 }
 .footer-padding {
-  padding-top: 130px;
+  /* padding-top: 130px; */
   padding-bottom: 20px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  .footer-padding {
-    padding-top: 130px;
-    padding-bottom: 20px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .footer-padding {
-    padding-top: 100px;
-    padding-bottom: 20px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .footer-padding {
-    padding-top: 100px;
-    padding-bottom: 0px;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .footer-padding {
-    padding-top: 50px;
-    padding-bottom: 0px;
-  }
-}
+
 @media (max-width: 575px) {
   .footer-padding {
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 0px;
   }
 }
@@ -2210,11 +2185,13 @@ hr {
   margin-top: 4px !important;
 }
 .mobile_menu {
-  position: absolute;
-  right: 0px;
-  width: 100%;
-  z-index: 99;
+  position: fixed; /* Position it relative to the viewport */
+  top: 15px; /* Small margin from the top */
+  right: -20px; /* Small margin from the right edge */
+  z-index: 1000; /* Ensure it stays above other elements */
+  width: auto; /* Adjust width to the content */
 }
+
 .slider-height {
   min-height: 900px;
   background-repeat: no-repeat;
@@ -3566,6 +3543,7 @@ hr {
 
 .footer-area .footer-copy-right {
   padding-top: 20px;
+  text-align: center;
 }
 @media (max-width: 575px) {
   .footer-area .footer-copy-right {
@@ -5352,6 +5330,10 @@ ul {
   border-radius: 50%;
 }
 
+h3 {
+  font-weight: bolder;
+}
+
 .usluge {
   font-size: 20px;
   color: #0b0b2b;
@@ -5803,8 +5785,22 @@ ul {
   color: #ff5f13;
 }
 
+.footer-copy-right {
+  text-align: center;
+}
+
+.footer-content-wrapper {
+  display: flex;
+  flex-direction: column; /* Mobile default */
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Style for social icons */
 .footer-social {
-  display: inline;
+  display: flex;
+  gap: 40px; /* Spacing between icons */
 }
 
 .footer-social a {
@@ -5816,14 +5812,17 @@ ul {
   color: #ff5f13;
 }
 
-@media (max-width: 445px) {
-  .footer-social {
-    display: block;
-    width: 183px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
+/* Tablet/Desktop layout: side-by-side */
+@media (min-width: 768px) {
+  .footer-content-wrapper {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: baseline;
+    gap: 40px;
+  }
+
+  .footer-copy-right {
+    text-align: left; /* Optional: aligns text better */
   }
 }
 
@@ -5834,4 +5833,19 @@ ul {
   font-style: normal;
   font-weight: 400;
   text-transform: normal;
+}
+
+.footer-area::after {
+  z-index: 0;
+}
+
+.footer-copy-right,
+.footer-content-wrapper,
+.footer-social {
+  position: relative;
+  z-index: 1;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
